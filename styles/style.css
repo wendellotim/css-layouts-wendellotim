@@ -91,19 +91,31 @@ White: #FFF
 }
 .below-section {
   background-color: #1ed760;
+  max-width: 100%
 }
-.third-section {
-  padding: 45px;  
+.third-section { 
+  padding:40px;
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
   grid-template-rows: 100%;
   color: white;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
 .spotify-icon-white {
   max-width: 100%;
   height: 100px;
+  position: relative;
+  top:50%;
 }
 .spotify-app {
   max-width: 100%;
-  height: 500px;
+  height: 600px;
+  position: relative;
+  top:40px;
+}
+
+.word-check{
+  font-size: 22px;
 }
